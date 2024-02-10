@@ -28,7 +28,7 @@
 
 # 可改進流程
 
-1. **AI模型提早著手處理:** 這次為了做出fixed的seq2seq model $\color{red}{(20 str~list \rightarrow 5 str~list)}$ 花了超多時間在弄。除了模型架構之外，最麻煩的是tokenize的問題。
+1. **AI模型提早著手處理:** 這次為了做出fixed的seq2seq model $\color{red}{(20 str\quad list \rightarrow 5 str\quad list)}$ 花了超多時間在弄。除了模型架構之外，最麻煩的是tokenize的問題。
 
 2. **使用goto:** 因為迴圈太多，只透過break會忘記下一個迴圈也要寫break，而且程式看起來很冗，所以以後還是用goto比較好。 
 
